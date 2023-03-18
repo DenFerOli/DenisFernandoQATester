@@ -1,0 +1,10 @@
+/* Experience */
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 50px;
+    background-color:blueviolet;
+    margin: 0;
+}

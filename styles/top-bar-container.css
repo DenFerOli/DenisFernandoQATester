@@ -1,0 +1,47 @@
+/* Bar Top */
+
+.top-container {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 252, 252);
+}
+
+.top-container img {
+    width: 23px;
+    opacity: 1.0;
+}
+
+.top-container img:hover {
+    opacity: 0.9;
+    transition: 400ms;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5%;
+}
+
+.social-media-container a {
+    display: flex;
+    align-items: center;
+}
+
+/* FLAG */
+
+.flags-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
+
+.flags-container a {
+    display: flex;
+    align-items: center;
+}
