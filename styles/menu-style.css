@@ -32,3 +32,8 @@ header .menu-nav-container {
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
+
+.menu-container a:hover {
+    cursor: pointer;
+    color: chartreuse;
+}
