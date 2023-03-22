@@ -1,11 +1,10 @@
 /* Bar Top */
 
 .top-container {
-    height: 5vh;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 252, 252);
 }
 
 .top-container img {
