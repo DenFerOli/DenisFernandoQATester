@@ -39,9 +39,10 @@
 
 
 .experience-content-container .experience-content .job-image-container{
+    display: flex;
+    align-items: center;
     height: 150px;
     width: 150px;
-    background-color: red;
 }
 
 .experience-content-container .experience-content .job-description-container {
