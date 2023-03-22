@@ -10,6 +10,7 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
+    background-color: rgb(4,5,7);
 }
 
 .experience-container h2 {
@@ -34,15 +35,23 @@
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    width: 50px;
+    width: 40%;
 }
 
 
 .experience-content-container .experience-content .job-image-container{
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 100px;
     width: 150px;
+}
+
+.experience-content-container .experience-content .job-image-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .experience-content-container .experience-content .job-description-container {
