@@ -1,6 +1,3 @@
-
-
-//function saudacao(){
     var data = new Date();
     var hora = data.getHours();
     var saudacao = document.createElement("h2");
@@ -14,4 +11,4 @@
     }
 
     pai.insertBefore(saudacao, bem);
-//}
+
