@@ -21,7 +21,7 @@
 
 .home-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     width: 100%;
@@ -39,7 +39,6 @@
     align-items: center;
     height: 500px;
     width: 30%;
-    background-color: aqua;
 }
 
 .welcome-container article {
