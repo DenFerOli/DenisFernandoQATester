@@ -13,7 +13,7 @@
 }
 
 .top-container img:hover {
-    opacity: 0.9;
+    opacity: 0.5;
     transition: 400ms;
 }
 
