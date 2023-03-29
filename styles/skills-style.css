@@ -20,6 +20,7 @@
     text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
 }
 
+/* CONTENT CONTAINER */
 
 .skills-content-container {
     display: flex;
@@ -33,22 +34,48 @@
 .skills-content-container .skills-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     height: 45%;
-    width: 25%;
+    width: 30%;
     margin: 5px;
+    border: 1px solid #018f8f;
+    border-radius: 20px;
 }
+
+.skills-content-container .skills-content:hover {
+    box-shadow: 0 0 10px #018f8f;
+    transition: 400ms;
+}
+
+/* TITLE CONTAINER */
+
+.skills-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.skills-content-container h3 {
+    font-weight: bold;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+}
+
+/* IMAGE CONTAINER */
 
 .skills-content-container .skills-images {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 20%;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
     padding: 5px;
-    background-color: #b8b5b5;
     border-radius: 20px;
 }
 
@@ -60,27 +87,15 @@
 }
 
 .skills-content-container .skills-images img:hover {
-    opacity: 0.8;
+    transition: 400ms;
+    opacity: 0.5;
 }
 
-.skills-title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-}
-
-.skills-content-container h3 {
-    font-weight: bold;
-    color: #000000;
-}
+/* DESCRIPTION */
 
 .skills-content-container .description-container {
     height: 60%;
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
