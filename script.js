@@ -12,3 +12,13 @@
 
     pai.insertBefore(saudacao, bem);
 
+let botao = document.querySelector('#portugues')
+let texto = document.querySelector('#desc')
+
+botao.addEventListener('mouseover', function (){
+    texto.textContent = 'teste'
+})
+
+botao.addEventListener('mouseout', function (){
+    texto.textContent = ''
+})
