@@ -29,8 +29,6 @@ header .menu-nav-container {
     width: 80%;
 }
 
-
-
 .menu-container ul li {
     display: flex;
     justify-content: center;
@@ -43,15 +41,29 @@ header .menu-nav-container {
     font-size: 15px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000000;
-    text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+    color: #ffffff;
 }
 
 .menu-container a:hover {
-    text-shadow: 1px 1px 3px rgb(1, 143, 143), 1px -1px 3px rgb(1, 143, 143), -1px 1px 3px rgb(1, 143, 143), -1px -1px 3px rgb(1, 143, 143);
+    color: rgb(1, 143, 143);
     transition: 400ms;
     cursor: pointer;
 }
+
+/* .menu-container a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+} */
+
+/* .menu-container a:hover {
+    text-shadow: 1px 1px 3px rgb(1, 143, 143), 1px -1px 3px rgb(1, 143, 143), -1px 1px 3px rgb(1, 143, 143), -1px -1px 3px rgb(1, 143, 143);
+    transition: 400ms;
+    cursor: pointer;
+} */
 
 @media (max-width: 375px) {
 
