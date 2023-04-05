@@ -50,3 +50,53 @@
     border-radius: 10px;
     text-align: start;
 }
+
+@media (min-width: 375px) {
+
+    .home-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 570px;
+        width: 375px;
+    }
+
+    .home-container h2 {
+        font-size: 20px;
+    }
+
+    .home-content {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 667px;
+        width: 375px;
+    }
+
+    .home-content img {
+        position: relative;
+        bottom: 30px;
+        height: 90%;
+        width: 100%;
+    }
+
+    .welcome-container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .welcome-container article {
+        position: relative;
+        bottom: 130px;
+        height: 100%;
+        width: 70%;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(1, 143, 143);
+        text-align: start;
+        font-size: 12px;
+
+    }
+}

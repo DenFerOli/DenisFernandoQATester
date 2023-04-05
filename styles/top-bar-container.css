@@ -4,7 +4,7 @@
     height: 6vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .top-container img {
@@ -17,20 +17,6 @@
     transition: 400ms;
 }
 
-/* SOCIAL MEDIA */
-
-.social-media-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 5%;
-}
-
-.social-media-container a {
-    display: flex;
-    align-items: center;
-}
-
 /* FLAG */
 
 .flags-container {
@@ -38,6 +24,7 @@
     justify-content: space-around;
     align-items: center;
     width: 15%;
+    z-index: 1;
 }
 
 .flags-container a {
