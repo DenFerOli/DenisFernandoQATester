@@ -51,14 +51,15 @@
     text-align: start;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
 
     .home-container {
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 570px;
-        width: 375px;
+        height: 667px;
+        width: 470px;
+        background-color: aqua;
     }
 
     .home-container h2 {
@@ -75,7 +76,6 @@
 
     .home-content img {
         position: relative;
-        bottom: 30px;
         height: 90%;
         width: 100%;
     }
@@ -89,9 +89,10 @@
 
     .welcome-container article {
         position: relative;
-        bottom: 130px;
+        bottom: 50px;
         height: 100%;
-        width: 70%;
+        width: 80%;
+        padding: 10px;
         flex-direction: column;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(1, 143, 143);
