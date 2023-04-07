@@ -70,10 +70,81 @@
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    margin: 10px;
 }
 
-.experience-content-container .experience-content .job-description-container ul li {
-    margin: 5px;
-    list-style:disc
+.experience-content-container .experience-content .job-description-container li {
+    margin: 2px;
+    list-style: none;
+}
+
+@media (max-width: 375px) {
+
+    .experience-container {
+        display: flex;
+        align-items: center;
+        height: 200vh;
+        width: 375px;
+    }
+
+    .experience-content-container {
+        flex-wrap: wrap;
+        width: 375px;
+    }
+
+    .experience-content-container .experience-content .job-description-container h3 {
+        font-size: 15px;
+    }
+
+    .experience-container h2 {
+        font-size: 25px;
+    }
+
+    .experience-content-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 375px;
+        background-color: lightpink;
+    }
+
+    .experience-content-container .experience-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 640px;
+        width: 350px;
+        background-color: rgb(25, 243, 123);
+        font-size: 15px;
+        border: 1px solid #000;
+    }
+
+    .experience-content-container .experience-content .job-image-container {
+        height: 100px;
+        width: 200px;
+        background-color: coral;
+    }
+
+    .experience-content-container .experience-content .job-description-container {
+        width: 100%;
+
+    }
+
+    .experience-content-container .experience-content .job-description-container li {
+        height: 50px;
+        width: 340px; 
+        flex-wrap: wrap;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .experience-content-container .experience-content .job-description-container h3 {
+        background-color: paleturquoise;
+    }
+
+    .experience-content-container .experience-content .job-description-container h4 {
+        background-color: green;
+    }
+
 }
