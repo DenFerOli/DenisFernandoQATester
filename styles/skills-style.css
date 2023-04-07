@@ -99,3 +99,17 @@
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
+
+@media (max-width: 375px) {
+
+    .skills-container {
+        height: 500vh;
+        width: 375px;
+    }
+
+    .skills-content-container {
+        height: 600vh;
+        width: 375px;
+        background-color: aliceblue;
+    }
+}
