@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     padding-top: 50px;
     background-color: rgb(4,5,7);
 }
@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: space-around;
     height: 50px;
-    width: 60%;
+    width: 300px;
     top: 60px;
 }
 
@@ -72,11 +72,15 @@ form input {
     border-style: none;
     border-radius: 20px;
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    box-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+
 }
 
 form input:hover {
     transition: 500ms;
-    box-shadow: 1px 1px 5px rgb(1, 143, 143), 1px -1px 5px rgb(1, 143, 143), -1px 1px 5px rgb(1, 143, 143), -1px -1px 5px rgb(1, 143, 143);
+    box-shadow: 1px 1px 3px rgb(1, 143, 143), 1px -1px 3px rgb(1, 143, 143), -1px 1px 3px rgb(1, 143, 143), -1px -1px 3px rgb(1, 143, 143);
 }
 
 form textarea {
@@ -84,11 +88,15 @@ form textarea {
     border-style: none;
     border-radius: 20px;
     padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    box-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+
 }
 
 form textarea:hover {
     transition: 500ms;
-    box-shadow: 1px 1px 5px rgb(1, 143, 143), 1px -1px 5px rgb(1, 143, 143), -1px 1px 5px rgb(1, 143, 143), -1px -1px 5px rgb(1, 143, 143);
+    box-shadow: 1px 1px 3px rgb(1, 143, 143), 1px -1px 3px rgb(1, 143, 143), -1px 1px 3px rgb(1, 143, 143), -1px -1px 3px rgb(1, 143, 143);
 }
 
 form button {
