@@ -22,3 +22,5 @@ botao.addEventListener('mouseover', function (){
 botao.addEventListener('mouseout', function (){
     texto.textContent = ''
 })
+
+

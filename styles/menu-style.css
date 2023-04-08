@@ -12,7 +12,7 @@ header .menu-nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 24px;
+    height: 30px;
     width: 50vw;
     padding: 5px;
     top: 0;
@@ -65,11 +65,18 @@ header .menu-nav-container {
     cursor: pointer;
 } */
 
+/* Iphone SE */
+
 @media (max-width: 375px) {
 
+    header .menu-nav-container {
+        height: 30px;
+        background-color: rgb(148, 37, 223);
+    }
+
     .menu-container {
+        height: 20px;
         width: 70%;
-        top: 40px;
     }
 
     .menu-container ul {
@@ -81,4 +88,15 @@ header .menu-nav-container {
         font-weight: normal;
     }
 
+}
+
+@media (min-width: 1002px) {
+    header .menu-nav-container {
+        height: 40px;
+        background-color: aqua;
+    }
+
+    .menu-container {
+        height: 30px;
+    }
 }
