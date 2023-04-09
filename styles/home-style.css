@@ -158,7 +158,7 @@
     .home-content img {
         position: relative;
         height: 100%;
-        width: 100%;
+        width: 80%;
     }
 
     .welcome-container {
@@ -175,6 +175,6 @@
     }
 
     .welcome-container article p {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
