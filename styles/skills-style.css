@@ -100,7 +100,9 @@
     background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 375px) {
+/* iPhone SE */
+
+@media (min-width: 375px) {
 
     .skills-container {
         height: 450vh;
@@ -108,8 +110,7 @@
     }
 
     .skills-container h2 {
-        font-size: 25px;
-        text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+        font-size: 20px;
     }
 
     .skills-content-container {
@@ -117,9 +118,131 @@
         width: 375px;
     }
 
-    .skills-content-container .skills-content {
-        height: 550px;
-        width: 300px;        
+    .skills-title-container {
+        width: 90%;
     }
 
+    .skills-content-container h3 {
+        font-size: 15px;
+    }
+
+    .skills-content-container .skills-content {
+        height: 550px;
+        width: 300px;
+    }
+
+    .skills-content-container .skills-images {
+        height: 100px;
+        width: 90%;
+    }
+
+    .skills-content-container .description-container {
+        height: 60%;
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 667px) {
+    .skills-container {
+        height: 250vh;
+        width: 667px;
+    }
+
+    .skills-content-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills-title-container {
+        width: 80%;
+    }
+
+    .skills-content-container h3 {
+        font-size: 12px;
+    }
+
+    .skills-content-container .skills-content {
+        height: 300px;
+        width: 300px;
+    }
+
+    .skills-title-container {
+        height: 20px;
+    }
+
+    .skills-content-container .skills-images {
+        height: 70px;
+    }
+
+    .skills-content-container .skills-images img {
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .skills-content-container .description-container {
+        height: 50%;
+        width: 90%;
+    }
+}
+
+/* iPad Air */
+
+@media (min-width: 820px) {
+    .skills-container {
+        height: 470vh;
+        width: 820px;
+        padding-top: 60px;
+    }
+
+    .skills-container h2 {
+        font-size: 40px;
+    }
+
+    .skills-content-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills-title-container {
+        height: 290px;
+        width: 90%;
+    }
+
+    .skills-content-container h3 {
+        font-size: 30px;
+    }
+
+    .skills-content-container .skills-content {
+        height: 1000px;
+        width: 90%;
+    }
+
+    .skills-title-container {
+        height: 20px;
+    }
+
+    .skills-content-container .skills-images {
+        height: 200px;
+    }
+
+    .skills-content-container .skills-images img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .skills-content-container .description-container {
+        height: 60%;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1180px) {
+    .skills-container {
+        width: 1180px;
+    }
 }

@@ -50,6 +50,10 @@
     text-align: start;
 }
 
+.welcome-container article p {
+    line-height: 1.5;
+}
+
 /* Iphone SE */
 
 @media (min-width: 375px) {
@@ -171,10 +175,11 @@
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 90%;
+        width: 60%;
     }
 
     .welcome-container article p {
         font-size: 18px;
+        line-height: 1.5;
     }
 }
