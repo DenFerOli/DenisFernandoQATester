@@ -243,6 +243,79 @@
 
 @media (min-width: 1180px) {
     .skills-container {
+        height: 180vh;
         width: 1180px;
+    }
+
+    .skills-container h2 {
+        font-size: 20px;
+    }
+
+    .skills-content-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .skills-content-container .skills-content {
+        height: 650px;
+        width: 350px;
+    }
+
+    .skills-title-container {
+        height: 40px;
+    }
+
+    .skills-content-container h3 {
+        font-size: 15px;
+    }
+
+    .skills-content-container .skills-images {
+        height: 130px;
+    }
+
+    .skills-content-container .skills-images img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/* Monitor Philips */ 
+
+@media (min-width: 1002px) {
+
+    .skills-container {
+        height: 170vh;
+        width: 100%;
+    }
+
+    .skills-container h2 {
+        font-size: 25px;
+    }
+
+    .skills-content-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 250vh;
+        width: 100%;
+    }
+
+    .skills-content-container .skills-content {
+        height: 450px;
+    }
+
+    .skills-content-container .description-container {
+        height: 230px;
+    }
+
+    .skills-content-container .skills-images {
+        height: 100px;
+    }
+
+    .skills-content-container .skills-images img {
+        height: 30px;
+        width: 30px;
     }
 }

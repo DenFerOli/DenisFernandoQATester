@@ -258,6 +258,38 @@
     }
 }
 
+@media (min-width: 1180px) {
+
+    .experience-container {
+        height: 100vh;
+    }
+
+    .experience-container h2 {
+        font-size: 15px;
+    }
+
+    .experience-content-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 820px;
+    }
+
+    .experience-content-container .experience-content {
+        display: flex;
+        width: 45%;
+        height: 80%;
+    }
+
+    .experience-content-container .experience-content .job-description-container li {
+        margin: 5px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+}
+
 /* Monitor Philips */
 
 @media (min-width: 1002px) {
