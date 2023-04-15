@@ -148,9 +148,7 @@ form button:hover {
         transition: 400ms;
     }
     
-    .contact-container .contact-images-container {
-        background-color: lightseagreen;
-    }
+
     
     .contact-container .contact-images-container a {
         display: flex;
