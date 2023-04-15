@@ -91,3 +91,12 @@
         font-size: 20px;
     }
 }
+
+/* Monitor Philips */
+
+@media (min-width: 1002px) {
+    .education-container {
+        background-color: #ffffff;
+        color: #000;
+    }
+}
