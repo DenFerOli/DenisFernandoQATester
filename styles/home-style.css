@@ -35,16 +35,16 @@
 
 .welcome-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 500px;
+    flex-direction: column;
+    height: 700px;
     width: 60%;
 }
 
 .welcome-container article {
-    height: 250px;
+    height: 200px;
     width: 60%;
-    background-color: rgb(4,5,7);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     text-align: start;
@@ -53,6 +53,44 @@
 .welcome-container article p {
     line-height: 1.5;
 }
+
+/* Contact Container */
+
+.contact-images-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 300px;
+}
+
+.contact-images-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+
+.contact-images-container a:hover {
+    box-shadow: 0 0 3px #fff;
+}
+
+.contact-images-container a img {
+    height: 30px;
+    width: 30px;
+}
+
+.contact-images-container a img:hover {
+    transition: 400ms;
+    opacity: 0.9;
+}
+
 
 /* Iphone SE */
 
@@ -166,7 +204,7 @@
     }
 
     .welcome-container {
-        height: 35%;
+        height: 70%;
         width: 100%;
     }
 
@@ -174,7 +212,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 100%;
+        height: 250px;
         width: 60%;
     }
 
@@ -182,4 +220,5 @@
         font-size: 18px;
         line-height: 1.5;
     }
+
 }
