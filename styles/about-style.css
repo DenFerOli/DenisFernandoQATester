@@ -20,7 +20,8 @@
     font-size: 30px;
     font-weight: bold;
     color: black;
-    text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+    text-shadow: 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+    /* text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143); */
 }
 
 .about-content-container {
@@ -32,16 +33,38 @@
 }
 
 .about-content1 {
-    flex-wrap: wrap;
-    padding: 10px;
-    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     height: 450px;
     width: 600px;
-    color: rgb(1, 143, 143);
 }
 
 .about-content1 h2 {
     text-align: center;
+}
+
+.about-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+}
+
+.about-text-container:hover {
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.about-content1 p {
+    height: 360px;
+    width: 510px;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 .about-content2 {
@@ -64,18 +87,18 @@
 }
 
 .education-container:hover {
-    cursor: pointer;
     box-shadow: 0 0 5px #ffffff;
     transition: 400ms;
 }
 
 .education-title-container {
-    width: 300px;
+    width: 360px;
     height: 100px;
 }
 
 .education-title-container h4 {
     font-weight: bold;
+    width: 300px;
 }
 
 .education-container a {
@@ -92,6 +115,8 @@
     height: 100px;
     width: 100px;
 }
+
+
 
 /* Iphone SE */
 
@@ -122,5 +147,11 @@
     .education-container img {
         height: 60px;
         width: 60px;
+    }
+
+    .education-container img:hover {
+        height: 70px;
+        width: 70px;
+        transition: 400ms;
     }
 }
