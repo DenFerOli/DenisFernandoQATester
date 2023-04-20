@@ -42,11 +42,11 @@ header .menu-nav-container {
     font-size: 15px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(1, 143, 143);
+    color: rgb(255, 255, 255);
 }
 
 .menu-container a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(1, 143, 143);
     transition: 400ms;
     cursor: pointer;
 }

@@ -82,13 +82,11 @@
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: #ffffff;
 }
 
-.contact-images-container a:hover {
+/* .contact-images-container a:hover {
     box-shadow: 0 0 3px #fff;
-}
+} */
 
 .contact-images-container a img {
     height: 30px;
