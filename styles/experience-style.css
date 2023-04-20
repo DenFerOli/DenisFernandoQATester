@@ -36,21 +36,35 @@
     width: 100%;
 }
 
+/* JOB LOGO CONTAINER ---------------------------------------------------------------------------------- */
 
-.experience-content-container .experience-content .job-image-container{
+.experience-content-container .experience-content .job-logo-container{
     display: flex;
     align-items: center;
-    height: 20px;
+    height: 50px;
     width: 150px;
 }
 
-.experience-content-container .experience-content .job-image-container a {
+.experience-content-container .experience-content .job-logo-container a {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
+    border-radius: 50%;
+    background-color: black;
 }
+
+.experience-content-container .experience-content .job-logo-container a:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+.experience-content-container .experience-content .job-logo-container h4 {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* JOB DESCRIPTION CONTAINER --------------------------------------------------------------------------- */
 
 .experience-content-container .experience-content .job-description-container {
     padding: 10px;
@@ -71,9 +85,8 @@
     line-height: 2.0;
 }
 
-.experience-content-container .experience-content .job-description-container li {
-    margin: 2px;
-    list-style: none;
+.experience-content-container .experience-content .job-description-container article {
+    height: 300px;
     line-height: 1.5;
 }
 
@@ -103,18 +116,18 @@
         width: 100%;
     }
 
-    .experience-content-container .experience-content .job-image-container {
+    .experience-content-container .experience-content .job-logo-container {
         margin: 10px;
         height: 60px;
         width: 100px;
     }
 
-    .experience-content-container .experience-content .job-image-container a {
+    .experience-content-container .experience-content .job-logo-container a {
         height: 100%;
         width: 100%;
     }
 
-    .experience-content-container .experience-content .job-image-container a img {
+    .experience-content-container .experience-content .job-logo-container a img {
         height: 100%;
         width: 100%;
     }
@@ -155,18 +168,18 @@
     }
 
 
-    .experience-content-container .experience-content .job-image-container {
+    .experience-content-container .experience-content .job-logo-container {
         margin: 10px;
         height: 40px;
         width: 80px;
     }
 
-    .experience-content-container .experience-content .job-image-container a {
+    .experience-content-container .experience-content .job-logo-container a {
         height: 100%;
         width: 100%;
     }
 
-    .experience-content-container .experience-content .job-image-container a img {
+    .experience-content-container .experience-content .job-logo-container a img {
         height: 100%;
         width: 100%;
     }
@@ -219,18 +232,18 @@
         width: 100%;
     }
 
-    .experience-content-container .experience-content .job-image-container {
+    .experience-content-container .experience-content .job-logo-container {
         margin: 10px;
         height: 50px;
         width: 90px;
     }
 
-    .experience-content-container .experience-content .job-image-container a {
+    .experience-content-container .experience-content .job-logo-container a {
         height: 100%;
         width: 100%;
     }
 
-    .experience-content-container .experience-content .job-image-container a img {
+    .experience-content-container .experience-content .job-logo-container a img {
         height: 100%;
         width: 100%;
     }
@@ -313,20 +326,22 @@
         width: 10px;
     }
 
-    .experience-content-container .experience-content .job-image-container {
+    .experience-content-container .experience-content .job-logo-container {
         margin: 10px;
         height: 70px;
-        width: 110px;
+        width: 80%;
     }
 
-    .experience-content-container .experience-content .job-image-container a {
-        height: 100%;
-        width: 100%;
+    .experience-content-container .experience-content .job-logo-container a {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
     }
 
-    .experience-content-container .experience-content .job-image-container a img {
-        height: 100%;
-        width: 100%;
+    .experience-content-container .experience-content .job-logo-container a img {
+        height: 70%;
+        width: 70%;
+
     }
 
     .experience-content-container .experience-content .job-description-container {
@@ -349,5 +364,6 @@
     .experience-content-container .experience-content .job-description-container p {
         font-size: 15px;
     }
+
 
 }

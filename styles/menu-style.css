@@ -46,9 +46,8 @@ header .menu-nav-container {
 }
 
 .menu-container a:hover {
-    color: rgb(1, 143, 143);
-    transition: 400ms;
     cursor: pointer;
+    border-bottom: 1px solid transparent;
 }
 
 /* Iphone SE */
