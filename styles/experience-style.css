@@ -10,14 +10,12 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
-    background-color: #1a1a1a;
 }
 
 .experience-container h2 {
     font-size: 30px;
     font-weight: bold;
-    color: black;
-    text-shadow: 1px 1px 0 rgb(1, 143, 143), 1px -1px 0 rgb(1, 143, 143), -1px 1px 0 rgb(1, 143, 143), -1px -1px 0 rgb(1, 143, 143);
+    color: rgb(255, 255, 255);
 }
 
 .experience-content-container {
