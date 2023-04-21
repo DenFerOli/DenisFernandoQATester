@@ -40,6 +40,7 @@
 }
 
 .portfolio-content-container .portfolio-content h3 {
+    height: 40px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
