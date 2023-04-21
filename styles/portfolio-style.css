@@ -101,6 +101,26 @@
     width: 20px;
 }
 
+.portfolio-tecnologies-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+}
+
+.portfolio-tecnologies-container img {
+    height: 25px;
+    width: 25px;
+}
+
+.portfolio-tecnologies-container img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 400ms;
+}
+
 
 /* Monitor Philips */
 
