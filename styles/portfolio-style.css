@@ -30,12 +30,31 @@
 }
 
 .portfolio-content-container .portfolio-content {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin-top: 20px;
     background-color: cornflowerblue;
 }
 
+.portfolio-content-container .portfolio-content h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.portfolio-content-container .portfolio-content .portfolio-content-boxes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+}
+
+.portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
 
 
 /* Monitor Philips */
