@@ -30,10 +30,13 @@
 }
 
 .portfolio-content-container .portfolio-content {
-    height: 200px;
-    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
-    background-color: cornflowerblue;
 }
 
 .portfolio-content-container .portfolio-content h3 {
@@ -44,16 +47,58 @@
 .portfolio-content-container .portfolio-content .portfolio-content-boxes {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    background-color: coral;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 230px;
 }
 
 .portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     width: 100px;
-    background-color: brown;
+}
+
+.portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box a img {
+    height: 90px;
+    width: 90px;
+}
+.portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box a img:hover {
+    height: 100px;
+    width: 100px;
+    transition: 400ms;
+}
+
+.portfolio-content-btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    width: 180px;
+}
+
+.portfolio-content-boxes-download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+
+.portfolio-content-boxes-download-btn:hover {
+    box-shadow: 0 0 3px #fff;
+}
+
+.portfolio-content-boxes-download-btn img{
+    height: 20px;
+    width: 20px;
 }
 
 
