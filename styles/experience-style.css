@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     padding-top: 50px;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,6 +13,7 @@
 }
 
 .experience-container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -304,7 +305,7 @@
 @media (min-width: 1002px) {
 
     .experience-container {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
     }
 
