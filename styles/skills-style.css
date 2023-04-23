@@ -37,12 +37,12 @@
     height: 450px;
     width: 380px;
     margin: 5px;
-    border: 1px solid #ffffff;
+    border: 1px solid #3f3f3f;
     border-radius: 20px;
 }
 
 .skills-content-container .skills-content:hover {
-    box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 5px #3f3f3f;
     transition: 400ms;
 }
 
@@ -92,8 +92,13 @@
 .skills-content-container .description-container {
     height: 250px;
     width: 350px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.skills-content-container .description-container p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ffffff;
 }
 
 /* iPhone SE */

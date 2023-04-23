@@ -92,6 +92,11 @@
 .education-title-container h4 {
     font-weight: bold;
     width: 300px;
+    color: #1a1a1a;
+}
+
+.education-title-container p {
+    color: #1a1a1a;
 }
 
 .education-container a {
