@@ -36,36 +36,40 @@ header .menu-nav-container {
     height: 25px;
 }
 
-.menu-container a {
+.menu-container ul li a {
     text-decoration: none;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
 
-.menu-container a:hover {
+.menu-container ul li a:hover {
     cursor: pointer;
     border-bottom: 1px solid transparent;
 }
 
 /* Iphone SE */
 
-@media (max-width: 375px) {
+@media (min-width: 300px) and (max-width: 375px){
+
+    header {
+        background-color: burlywood;
+    }
 
     header .menu-nav-container {
-        height: 30px;
+        width: 375px;
     }
 
     .menu-container {
         height: 10px;
-        width: 100%;
+        width: 375px;
     }
 
     .menu-container ul {
         width: 100%;
     }
 
-    .menu-container a {
+    .menu-container ul li a {
         font-size: 12px;
         font-weight: normal;
     }
