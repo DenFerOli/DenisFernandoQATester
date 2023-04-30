@@ -107,24 +107,22 @@
 
  @media (max-width: 375px) {
 
-    .home-container {
-        width: 375px;
-    }
 
     .home-content {
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: red;
+        background-color: rgb(166, 255, 0);
+        width: 100vw;
     }
 
     .home-image-container {
-        height: 300px;
+        width: 100%;
         background-color: coral;
     }
 
     .home-image-container img {
-        width: 100%;
+        width: 300px;
     }
 
     .welcome-container {
@@ -146,26 +144,22 @@
     
     .welcome-container article p {
         line-height: 1.5;
+        font-size: 10px;
     }
     
     /* Contact Container */
     
-    .home-contact-container {
+    /* .home-contact-container {
         display: flex;
         align-items: center;
         justify-content: start;
         flex-direction: column;
         height: 200px;
         width: 100%;
-    }
+    } */
     
     .contact-images-container {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        height: 70px;
+        height: 50px;
         background-color: brown;
     }
     
