@@ -48,6 +48,25 @@ header .menu-nav-container .menu-container ul li a:hover {
     border-bottom: 1px solid transparent;
 }
 
+/* 
+
+Smartphones com telas pequenas: Esses dispositivos têm telas com menos de 600 pixels de largura. O tamanho mais comum é 320x480 pixels.
+
+Smartphones com telas médias: Esses dispositivos têm telas com larguras entre 600 pixels e 768 pixels. O tamanho mais comum é 640x960 pixels.
+
+Tablets: Tablets têm telas maiores que smartphones, geralmente entre 768 pixels e 1024 pixels de largura. O tamanho mais comum é 768x1024 pixels.
+
+Laptops e desktops: Esses dispositivos têm telas ainda maiores, geralmente acima de 1024 pixels de largura. Alguns dos tamanhos mais comuns são 1366x768, 1440x900, 1920x1080 e 2560x1440 pixels.
+
+*/
+
+/* 
+
+SMALL: (min-width: 300px) and (max-width: 375px)
+MEDIUM: (min-width: 375px) and (max-width: 
+
+*/
+
 /* Iphone SE */
 
 @media (min-width: 300px) and (max-width: 375px){
@@ -58,12 +77,12 @@ header .menu-nav-container .menu-container ul li a:hover {
 
     header .menu-nav-container .menu-container {
         height: 100%;
-        width: 375px;
+        width: 100%;
     }
 
     header .menu-nav-container .menu-container ul {
         height: 100%;
-        width: 375px;
+        width: 100%;
     }
 
     header .menu-nav-container .menu-container ul li a {
