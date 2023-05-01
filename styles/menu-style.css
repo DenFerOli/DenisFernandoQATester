@@ -63,7 +63,7 @@ Laptops e desktops: Esses dispositivos têm telas ainda maiores, geralmente acim
 /* 
 
 SMALL: (min-width: 300px) and (max-width: 375px)
-MEDIUM: (min-width: 375px) and (max-width: 
+MEDIUM: (min-width: 375px) and (max-width: )
 
 */
 
@@ -113,6 +113,16 @@ MEDIUM: (min-width: 375px) and (max-width:
     }
 
 }
+
+/* 
+
+@media (max-width: 640px) {
+    header {
+        
+    }
+}
+
+*/
 
 
 /* iPad Air */
