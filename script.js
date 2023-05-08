@@ -23,4 +23,10 @@ botao.addEventListener('mouseout', function (){
     texto.textContent = ''
 })
 
+    let ageCal = new Date().getFullYear() - 1989
+
+    
+    let myAge = document.querySelector('#teste')
+
+    myAge.innerText = 'teste'
 
