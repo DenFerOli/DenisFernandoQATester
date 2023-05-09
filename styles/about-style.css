@@ -113,7 +113,7 @@
     width: 100px;
 }
 
-/* RESPOSIVE */
+/* RESPONSIVE */
 
 
 @media (min-width: 300px) and (max-width: 400px){
@@ -155,6 +155,8 @@
     .about-container .about-content-container .about-content1 .about-text-container p {
         font-size: 12px;
     }
+
+    /* CONTENT CONTAINER 2 */
     
     .about-container .about-content-container .about-content2 {
         padding-top: 10px;
@@ -184,13 +186,11 @@
         font-weight: bold;
         width: 100%;
         text-align: center;
-        color: #1a1a1a;
         font-size: 12px;
     }
     
     .about-container .about-content-container .about-content2 .education-container .education-title-container p {
         font-size: 12px;
-        color: #1a1a1a;
     }
     
     .about-container .about-content-container .about-content2 .education-container a {
@@ -208,20 +208,352 @@
 }
 
 @media (min-width: 400px) and (max-width: 500px) {
+    .about-container {
+        height: 1250px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    
+    .about-container h2 {
+        font-size: 17px;
+    }
+    
+    .about-container .about-content-container {
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container {
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container p {
+        font-size: 15px;
+    }
+
+    /* CONTENT CONTAINER 2 */
+    
+    .about-container .about-content-container .about-content2 {
+        height: 700px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container {
+        height: 220px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container {
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container h4 {
+        font-size: 16px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container p {
+        font-size: 16px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a img {
+        height: 60px;
+        width: 60px;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
+    .about-container {
+        height: 1200px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    
+    .about-container h2 {
+        font-size: 20px;
+    }
+    
+    .about-container .about-content-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 {
+        height: 570px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container p {
+        height: 90%;
+        font-size: 18px;
+    }
+
+    /* CONTENT CONTAINER 2 */
+    
+    .about-container .about-content-container .about-content2 {
+        height: 600px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container {
+        display: flex;
+        height: 170px;
+        width: 90%;
+        border-radius: 0;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container {
+        width: 70%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container h4 {
+        font-size: 18px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container p {
+        font-size: 18px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a img {
+        height: 70px;
+        width: 70px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 700px) {
+    .about-container {
+        height: 1300px;
+        width: 100%;
+        padding-top: 60px;
+    }
+    
+    
+    .about-container h2 {
+        font-size: 22px;
+    }
+    
+    .about-container .about-content-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 {
+        height: 750px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container p {
+        height: 90%;
+        font-size: 20px;
+    }
+
+    /* CONTENT CONTAINER 2 */
+    
+    .about-container .about-content-container .about-content2 {
+        height: 700px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container {
+        display: flex;
+        height: 170px;
+        width: 90%;
+        border-radius: 0;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container {
+        width: 70%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container h4 {
+        font-size: 20px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container p {
+        font-size: 20px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a img {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 /* TABLETS */
 
 @media (min-width: 700px) and (max-width: 800px) {
+    .about-container {
+        height: 1500px;
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    
+    .about-container h2 {
+        font-size: 26px;
+    }
+    
+    .about-container .about-content-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 {
+        height: 950px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container p {
+        height: 90%;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    /* CONTENT CONTAINER 2 */
+    
+    .about-container .about-content-container .about-content2 {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container {
+        display: flex;
+        height: 200px;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container {
+        height: 80%;
+        width: 70%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container h4 {
+        font-size: 22px;
+
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container p {
+        font-size: 22px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a img {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
+    .about-container {
+        height: 1500px;
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    
+    .about-container h2 {
+        font-size: 26px;
+    }
+    
+    .about-container .about-content-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 {
+        height: 950px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content1 .about-text-container p {
+        height: 90%;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    /* CONTENT CONTAINER 2 */
+    
+    .about-container .about-content-container .about-content2 {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container {
+        display: flex;
+        height: 200px;
+        width: 90%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container {
+        height: 80%;
+        width: 70%;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container h4 {
+        font-size: 22px;
+
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container .education-title-container p {
+        font-size: 22px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .about-container .about-content-container .about-content2 .education-container a img {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1000px) {

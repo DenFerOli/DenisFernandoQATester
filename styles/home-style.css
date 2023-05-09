@@ -121,7 +121,7 @@
     
     .home-container .home-content .home-image-container img {
         height: 100%;
-        width: 60%;
+        width: 70%;
     }
     
     /* WELCOME CONTAINER */
@@ -240,14 +240,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 30px;
-        width: 30px;
+        height: 33px;
+        width: 33px;
         border-radius: 50%;
     }
     
     .home-container .home-content .welcome-container .home-contact-container .contact-images-container a img {
-        height: 22px;
-        width: 22px;
+        height: 24px;
+        width: 24px;
     }
 
 }
