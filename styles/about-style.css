@@ -132,11 +132,11 @@
 @media (min-width: 300px) and (max-width: 400px){
 
     .about-container {
-        height: 1130px;
+        display: flex;
+        justify-content: flex-start;
+        height: 800px;
         width: 100%;
-        padding-top: 40px;
     }
-    
     
     .about-container h2 {
         font-size: 15px;
@@ -147,13 +147,14 @@
         align-items: flex-start;
         justify-content: space-between;
         flex-direction: column;
+        height: 100%;
         width: 100%;
     }
     
     .about-container .about-content-container .about-content1 {
         display: flex;
         justify-content: flex-start;
-        height: 400px;
+        height: 40%;
         width: 100%;
     }
     
@@ -170,14 +171,19 @@
     }
 
     /* CONTENT CONTAINER 2 */
-    
+    .about-container .about-content-container .about-content2 {
+        display: flex;
+        justify-content: flex-end;
+        height: 50%;
+        width: 100%;
+    }
     .about-container .about-content-container .about-content2 .education-main-container {
         padding-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 650px;
+        height: 75%;
         width: 100%;
     }
     
@@ -185,14 +191,16 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        flex-direction: column;
-        height: 190px;
-        width: 100%;
+        flex-direction: row;
+        height: 30%;
+        width: 95%;
         border-radius: 0;
+        background-color: #eee6e6;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container {
-        width: 90%;
+        height: 80%;
+        width: 70%;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container h4 {
@@ -207,80 +215,116 @@
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         background-color: #000;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
 
 }
 
-@media (min-width: 400px) and (max-width: 500px) {
+@media (min-width: 400px) and (max-width: 500px){
+
     .about-container {
-        height: 1250px;
+        display: flex;
+        justify-content: flex-start;
+        height: 800px;
         width: 100%;
-        padding-top: 50px;
     }
-    
     
     .about-container h2 {
         font-size: 17px;
     }
     
     .about-container .about-content-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
         width: 100%;
     }
     
     .about-container .about-content-container .about-content1 {
-        height: 500px;
+        display: flex;
+        justify-content: flex-start;
+        height: 40%;
         width: 100%;
     }
     
     .about-container .about-content-container .about-content1 .about-text-container {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px;
+        height: 100%;
         width: 90%;
     }
     
     .about-container .about-content-container .about-content1 .about-text-container p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     /* CONTENT CONTAINER 2 */
-    
     .about-container .about-content-container .about-content2 {
-        height: 700px;
+        display: flex;
+        justify-content: flex-end;
+        height: 50%;
+        width: 100%;
+    }
+    .about-container .about-content-container .about-content2 .education-main-container {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 75%;
         width: 100%;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container {
-        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 30%;
+        width: 95%;
+        border-radius: 0;
+        background-color: #eee6e6;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container {
-        width: 90%;
+        height: 80%;
+        width: 70%;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container h4 {
-        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container p {
-        font-size: 16px;
+        font-size: 12px;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #000;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a img {
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
     }
+
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
