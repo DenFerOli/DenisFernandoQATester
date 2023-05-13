@@ -107,3 +107,100 @@
     line-height: 1.5;
     color: #ffffff;
 }
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+.skills-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 1200px;
+    padding-top: 40px;
+    background-color: red;
+}
+
+/* CONTENT CONTAINER */
+
+.skills-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.skills-container .skills-content-container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.skills-container .skills-content-container .main-skills-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.skills-container .skills-content-container .main-skills-content .skills-content {
+    height: 30%;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #3f3f3f;
+    border-radius: 0;
+    background-color: rgb(117, 117, 25);
+}
+
+/* TITLE CONTAINER */
+
+.skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container h3 {
+    font-size: 13px;
+}
+
+/* IMAGE CONTAINER */
+
+.skills-container .skills-content-container .main-skills-content .skills-content .skills-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 0;
+    background-color: darkgreen;
+}
+
+.skills-container .skills-content-container .main-skills-content .skills-content .skills-images img {
+    height: 25px;
+    width: 25px;
+}
+
+/* DESCRIPTION */
+
+.skills-container .skills-content-container .main-skills-content .skills-content .description-container {
+    height: 250px;
+    width: 90%;
+    padding: 10px;
+}
+
+.skills-container .skills-content-container .main-skills-content .skills-content .description-container p {
+    font-size: 12px;
+}
+
+}
