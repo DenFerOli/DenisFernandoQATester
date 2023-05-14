@@ -266,4 +266,84 @@
         font-size: 13px;
     }
     
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+
+    .skills-container {
+        height: 1200px;
+        padding-top: 70px;
     }
+    
+    /* CONTENT CONTAINER */
+    
+    .skills-content-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .skills-container .skills-content-container h2 {
+        font-size: 18px;
+    }
+    
+    .skills-container .skills-content-container .main-skills-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content {
+        height: 33%;
+        width: 100%;
+        border: none;
+        border-top: 1px solid #3f3f3f;
+        border-radius: 0;
+    }
+    
+    /* TITLE CONTAINER */
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 90%;
+    }
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container h3 {
+        font-size: 15px;
+    }
+    
+    /* IMAGE CONTAINER */
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .skills-images {
+        height: 80px;
+        width: 90%;
+        border-radius: 0;
+    }
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .skills-images img {
+        height: 32px;
+        width: 32px;
+    }
+    
+    /* DESCRIPTION */
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .description-container {
+        height: 250px;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .skills-container .skills-content-container .main-skills-content .skills-content .description-container p {
+        font-size: 15px;
+    }
+    
+}
