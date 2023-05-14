@@ -140,6 +140,7 @@
     
     .about-container h2 {
         font-size: 15px;
+        background-color: red;
     }
     
     .about-container .about-content-container {

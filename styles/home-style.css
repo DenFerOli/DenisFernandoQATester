@@ -107,6 +107,7 @@
     .home-container .home-content {
         display: flex;
         flex-direction: column;
+        height: 100vh;
         width: 100%;
         padding-top: 30px;
     }
@@ -137,6 +138,7 @@
     
     .home-container .home-content .welcome-container h2 {
         font-size: 15px;
+        background-color: red;
     }
     
     .home-container .home-content .welcome-container article {
