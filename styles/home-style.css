@@ -114,7 +114,7 @@
     /* IMAGE CONTAINER */
     
     .home-container .home-content .home-image-container {
-        height: 200px;
+        height: 300px;
         width: 100%;
         background-color: rgb(4,5,7);
     }
@@ -140,7 +140,7 @@
     }
     
     .home-container .home-content .welcome-container article {
-        height: 190px;
+        height: 260px;
         width: 90%;
         padding-top: 10px;
     }
