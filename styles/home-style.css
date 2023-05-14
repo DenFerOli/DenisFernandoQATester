@@ -107,7 +107,7 @@
     .home-container .home-content {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 900vh;
         width: 100%;
         padding-top: 30px;
     }
