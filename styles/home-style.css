@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -106,16 +106,15 @@
     
     .home-container .home-content {
         display: flex;
-        justify-content: flex-start;
         flex-direction: column;
         width: 100%;
-        padding-top: 0;
+        padding-top: 30px;
     }
     
     /* IMAGE CONTAINER */
     
     .home-container .home-content .home-image-container {
-        height: 250px;
+        height: 200px;
         width: 100%;
         background-color: rgb(4,5,7);
     }
