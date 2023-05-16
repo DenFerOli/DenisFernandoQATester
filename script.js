@@ -2,6 +2,7 @@
     var hora = data.getHours();
     var saudacao = document.createElement("h2");
     var pai = document.querySelector("article");
+    
     if(hora >= 1 && hora < 12){
         saudacao.textContent = "Olá, Bom dia!";
     } else if(hora >= 12 && hora < 18){
@@ -23,10 +24,7 @@ botao.addEventListener('mouseout', function (){
     texto.textContent = ''
 })
 
-    let ageCal = new Date().getFullYear() - 1989
+// MY AGE
 
-    
-    let myAge = document.querySelector('#teste')
 
-    myAge.innerText = 'teste'
 
