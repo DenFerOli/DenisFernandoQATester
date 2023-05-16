@@ -7,3 +7,6 @@ if (data.getMonth() < 8 && data.getDay() < 24) {
 } else {
     myAge.innerText = data.getFullYear() - 1989
 }
+
+// 2021
+
