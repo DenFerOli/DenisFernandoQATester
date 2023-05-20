@@ -50,6 +50,9 @@
 }
 
 .home-container .home-content .welcome-container article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 300px;
     width: 60%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
