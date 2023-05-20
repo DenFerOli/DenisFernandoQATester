@@ -147,13 +147,12 @@
         flex-wrap: wrap;
         height: 100%;
         width: 100%;
-        background-color: burlywood;
     }
 
     .portfolio-content-container .portfolio-content {
         height: 250px;
-        width: 90%;
-        background-color: cadetblue;
+        width: 100%;
+        border-bottom: 1px solid #fff;
     }
 
     .portfolio-content-container .portfolio-content h3 {
