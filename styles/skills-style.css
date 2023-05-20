@@ -164,14 +164,14 @@
 /* IMAGE CONTAINER */
 
 .skills-container .skills-content-container .main-skills-content .skills-content .skills-images {
-    height: 90px;
+    height: 100px;
     width: 90%;
     border-radius: 0;
 }
 
 .skills-container .skills-content-container .main-skills-content .skills-content .skills-images img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 /* DESCRIPTION */
@@ -183,7 +183,7 @@
 }
 
 .skills-container .skills-content-container .main-skills-content .skills-content .description-container p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 }
