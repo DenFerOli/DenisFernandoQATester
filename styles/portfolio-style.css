@@ -132,7 +132,7 @@
 @media (min-width: 300px) and (max-width: 400px) {
 
     .portfolio-container {
-        height: 100vh;
+        height: 150vh;
     }
 
     .portfolio-container h2 {
@@ -143,20 +143,23 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         height: 100%;
         width: 100%;
+        background-color: burlywood;
     }
 
     .portfolio-content-container .portfolio-content {
         height: 250px;
-        width: 45%;
+        width: 90%;
+        background-color: cadetblue;
     }
 
     .portfolio-content-container .portfolio-content h3 {
         height: 15%;
         width: 100%;
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 14px;
     }
@@ -178,8 +181,13 @@
     }
     
     .portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box a img {
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
+    }
+    .portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box a img:hover {
+        height: 100px;
+        width: 100px;
+        transition: 400ms;
     }
     
     .portfolio-content-btns {
