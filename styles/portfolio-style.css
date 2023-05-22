@@ -86,6 +86,7 @@
     justify-content: space-around;
     height: 80px;
     width: 180px;
+    background-color: cornflowerblue;
 }
 
 .portfolio-content-boxes-download-btn {
@@ -117,8 +118,7 @@
     height: 30px;
     width: 170px;
     border-radius: 20px;
-
-    background-color: blueviolet;
+    background-color: coral;
 }
 
 .portfolio-tecnologies-container img {
