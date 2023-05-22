@@ -19,6 +19,7 @@
     justify-content: flex-end;
     height: 100%;
     width: 100%;
+    padding-top: 20px;
 }
 
 .experience-container .experience-content-container h2 {
@@ -31,9 +32,8 @@
 .experience-container .experience-content-container .experience-main-container {
     display: flex;
     justify-content: space-around;
-    height: 90%;
+    height: 100%;
     width: 100%;
-
 }
 
 .experience-container .experience-content-container .experience-main-container .experience-content {
@@ -43,6 +43,7 @@
     justify-content: space-between;
     height: 100%;
     width: 40%;
+    margin-top: 40px;
 }
 
 /* JOB LOGO CONTAINER ---------------------------------------------------------------------------------- */
