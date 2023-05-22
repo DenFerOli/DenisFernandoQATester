@@ -158,7 +158,7 @@
 }
 
 .skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container h3 {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* IMAGE CONTAINER */
@@ -183,7 +183,7 @@
 }
 
 .skills-container .skills-content-container .main-skills-content .skills-content .description-container p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 }
@@ -238,7 +238,8 @@
     }
     
     .skills-container .skills-content-container .main-skills-content .skills-content .skills-title-container h3 {
-        font-size: 15px;
+        font-size: 17px;
+        color: chartreuse;
     }
     
     /* IMAGE CONTAINER */

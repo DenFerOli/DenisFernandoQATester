@@ -169,7 +169,7 @@
     }
     
     .about-container .about-content-container .about-content1 .about-text-container p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* CONTENT CONTAINER 2 */
@@ -179,13 +179,14 @@
         height: 50%;
         width: 100%;
     }
+    
     .about-container .about-content-container .about-content2 .education-main-container {
         padding-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 75%;
+        height: 85%;
         width: 100%;
     }
     
@@ -206,10 +207,8 @@
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container h4 {
-        font-weight: bold;
         width: 100%;
-        text-align: center;
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container .education-title-container p {
@@ -217,15 +216,15 @@
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a {
-        height: 60px;
-        width: 60px;
+        height: 65px;
+        width: 65px;
         border-radius: 50%;
         background-color: #000;
     }
     
     .about-container .about-content-container .about-content2 .education-main-container .education-container a img {
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
     }
 
 }

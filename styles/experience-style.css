@@ -202,8 +202,9 @@
     }
     
     .experience-container .experience-content-container .experience-main-container .experience-content .job-logo-container h4 {
-        margin-left: 13px;
+        margin-left: 16px;
         font-weight: bold;
+        font-size: 16px;
     }
     
     /* JOB DESCRIPTION CONTAINER --------------------------------------------------------------------------- */
@@ -219,7 +220,7 @@
     }
     
     .experience-container .experience-content-container .experience-main-container .experience-content .job-description-container h4 {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: bold;
         line-height: 2.0;
     }
@@ -230,6 +231,6 @@
     }
     
     .experience-container .experience-content-container .experience-main-container .experience-content .job-description-container article p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }

@@ -183,11 +183,7 @@
         height: 90px;
         width: 90px;
     }
-    .portfolio-content-container .portfolio-content .portfolio-content-boxes .portfolio-content-box a img:hover {
-        height: 100px;
-        width: 100px;
-        transition: 400ms;
-    }
+
     
     .portfolio-content-btns {
         display: flex;
