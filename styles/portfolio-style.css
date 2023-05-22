@@ -132,10 +132,12 @@
 @media (min-width: 300px) and (max-width: 400px) {
 
     .portfolio-container {
+        display: flex;
+        justify-content: flex-start;
         height: 100vh;
     }
 
-    .portfolio-container h2 {
+    .portfolio-container .portfolio-content-container h2 {
         font-size: 15px;
     }
 
@@ -145,7 +147,7 @@
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 100%;
+        height: 90%;
         width: 100%;
     }
 
