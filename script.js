@@ -25,6 +25,3 @@ botao.addEventListener('mouseout', function (){
 })
 
 // MY AGE
-
-
-
