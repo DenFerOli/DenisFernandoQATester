@@ -48,6 +48,35 @@ header .menu-nav-container .menu-container ul li a:hover {
     border-bottom: 1px solid transparent;
 }
 
+header .menu-nav-container .language-container {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+header .menu-nav-container .language-container a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+header .menu-nav-container .language-container a img {
+    height: 25px;
+    width: 25px;
+}
+
+header .menu-nav-container .language-container a img:hover {
+    height: 27px;
+    width: 27px;
+}
+
 /* 
 
 Smartphones com telas pequenas: Esses dispositivos têm telas com menos de 600 pixels de largura. O tamanho mais comum é 320x480 pixels.
