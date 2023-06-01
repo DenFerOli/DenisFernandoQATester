@@ -20,6 +20,8 @@
 /* IMAGE CONTAINER */
 
 .home-container .home-content .home-image-container {
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 50%;
 }
@@ -645,4 +647,13 @@
         width: 32px;
     }
 
+}
+
+/* .home-container .home-content .home-image-container img */
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .home-container .home-content .home-image-container img {
+        height: 90%;
+        width: 90%;
+    }
 }

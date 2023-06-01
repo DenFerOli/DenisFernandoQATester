@@ -854,4 +854,18 @@
 
 @media (min-width: 1200px) and (max-width: 1300px) {
 
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container .about-content-container {
+        height: 80%;
+    }
+
+    .about-container .about-content-container .about-content2 .education-main-container {
+        height: 70%;
+    }
 }
+
