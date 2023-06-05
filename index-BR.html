@@ -20,19 +20,25 @@
 <body>
     <header >
         <nav class="menu-nav-container">
+            <div class="hamburger-menu-container" onclick="openMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+              </div>
             <div class="menu-container">
+                <button onclick="openMenu()">X</button>
                 <ul>
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="#home"  onclick="openMenu()">Home</a>
                     </li>
                     <li>
-                        <a href="#about">Sobre</a>
+                        <a href="#about"  onclick="openMenu()">Sobre</a>
                     </li>
                     <li>
-                        <a href="#experience">Experiência</a>
+                        <a href="#experience"  onclick="openMenu()">Experiência</a>
                     </li>
                     <li>
-                        <a href="#skills">Habilidades</a>
+                        <a href="#skills" onclick="openMenu()">Habilidades</a>
                     </li>
                     <!-- <li>
                         <a href="#portfolio">Portfolio</a>
@@ -40,13 +46,22 @@
                 </ul>
             </div>
             <nav class="language-container">
-                <a href="index.html">
-                    <img src="assets/img/us.png" alt="">
-                </a>
-                <a href="index-BR.html">
-                    <img src="assets/img/br.png" alt="">
+                <ul>
+                    <li>                    
+                        <a href="index.html">
+                        <img src="assets/img/us.png" alt="">
+                    </a>
+                    </li>
+                    <li>
+                        <a href="index-BR.html">
+                        <img src="assets/img/br.png" alt="">
+                    </li>
+                </ul>
                 </a>
             </nav>
+            <a class="language-menu-button">
+                <img src="assets/img/languages.png" alt="">
+            </a>
         </nav>
     </header>
     <main>

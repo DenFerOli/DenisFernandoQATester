@@ -24,4 +24,20 @@ botao.addEventListener('mouseout', function (){
     texto.textContent = ''
 })
 
+
+
 // MY AGE
+
+
+function openMenu() {
+
+    let showMenu = document.querySelector('.menu-container')
+
+    if (showMenu.style.display === 'none') {
+        showMenu.style.display = 'flex'
+    } else {
+        showMenu.style.display = 'none'
+
+    }
+
+}
