@@ -167,7 +167,7 @@ Laptops e desktops: Esses dispositivos têm telas ainda maiores, geralmente acim
         justify-content: flex-end;
         flex-direction: column;
         height: 300px;
-        width: 90%;
+        width: 50%;
         background-color: #1a1a1a;
     }
 
