@@ -71,10 +71,9 @@
 .home-container .home-content .welcome-container .home-contact-container {
     display: flex;
     align-items: center;
-    justify-content: start;
-    flex-direction: column;
+    justify-content: center;
     height: 200px;
-    width: 100%;
+    width: 50%;
 }
 
 .home-container .home-content .welcome-container .home-contact-container .contact-images-container {
@@ -84,7 +83,7 @@
     align-items: center;
     justify-content: space-around;
     height: 70px;
-    width: 300px;
+    width: 100%;
 }
 
 .home-container .home-content .welcome-container .home-contact-container .contact-images-container a {
@@ -617,7 +616,7 @@
     
     .home-container .home-content .welcome-container .home-contact-container {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         height: 30%;
         width: 100%;
 

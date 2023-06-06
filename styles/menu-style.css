@@ -115,11 +115,13 @@ header .menu-nav-container .language-menu-button {
 header .menu-nav-container .language-container a img {
     height: 25px;
     width: 25px;
+    filter: grayscale(50%);
 }
 
 header .menu-nav-container .language-container a img:hover {
     height: 27px;
     width: 27px;
+    filter: grayscale(0%);
 }
 
 /* 
